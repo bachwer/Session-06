@@ -29,7 +29,7 @@ int main() {
         printf("ngiệm 2: %.1f\n", x2);
     }else if(delta == 0){
         x1 = (float)(-b / (2 * a));
-        printf("Một nghiệm duy nhất: %.1f\n  ", x1);
+        printf("nghiệm kép x1 = x = %.1f\n  ", x1);
     }else{
         printf("invalid\n");
     }
